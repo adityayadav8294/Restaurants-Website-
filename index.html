@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuisine Wave Restaurant</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <div class="logo-icon">m</div>
+                <div class="logo-text">Mika <span>cafe</span>
+                    <span class="logo-tagline">Since 2025</span>
+                </div>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#food delivery">Food Delivery</a></li>
+                    <li><a href="#about us">About Us</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact us">Contact Us</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-buttons">
+                <a href="#menu" class="btn btn-primary">Order Now</a>
+                <a href="#" class="btn btn-secondary">Book Table</a>
+            </div>
+        </div>
+    </header>
+
+
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Taste & Feel the Spirit of Best Quality Cuisine</h1>
+            <p>Experience the perfect blend of flavors and aromas at Mika Cafe Restaurant, where every dish tells a
+                story of passion and tradition.</p>
+            <div class="hero-buttons">
+                <a href="#menu" class="btn btn-primary">View Our Menu</a>
+                <a href="#" class="btn btn-secondary">Book a Table</a>
+            </div>
+        </div>
+
+        <!-- Decorative Elements -->
+        <div class="floating-chili">
+            <img src="chili.png" alt="Chili" width="80">
+        </div>
+        <div class="floating-onion">
+            <img src="onion.png" alt="Onion" width="120">
+        </div>
+    </section>
+
+
+
+    <!-- Menu Section -->
+    <section class="menu" id="menu">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Menu</h2>
+                <p>Discover our exquisite dishes prepared with the finest ingredients and traditional recipes</p>
+            </div>
+
+            <div class="menu-categories">
+                <button class="category-btn active">All</button>
+                <button class="category-btn">Vegetable Dishes</button>
+                <button class="category-btn">Rice Dishes</button>
+                <button class="category-btn">Tandoori Breads</button>
+                <button class="category-btn">Desserts</button>
+            </div>
+
+            <div class="menu-items">
+                <div class="menu-item">
+                    <div class="menu-item-img">
+                        <img src="M1.avif" alt="Vegetable Dish">
+                    </div>
+                    <div class="menu-item-content">
+                        <div class="menu-item-title">
+                            <h3>Spring Rolls</h3>
+                            <span class="menu-item-price">$8.99</span>
+                        </div>
+                        <p class="menu-item-desc">Crispy rolls filled with fresh vegetables and served with sweet chili
+                            sauce.</p>
+                        <button class="menu-item-order">Order Now</button>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-img">
+                        <img src="M2.avif" alt="Rice Dish">
+                    </div>
+                    <div class="menu-item-content">
+                        <div class="menu-item-title">
+                            <h3>Biryani Special</h3>
+                            <span class="menu-item-price">$14.99</span>
+                        </div>
+                        <p class="menu-item-desc">Fragrant basmati rice cooked with spices, herbs and your choice of
+                            protein.</p>
+                        <button class="menu-item-order">Order Now</button>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-img">
+                        <img src="M3.jpg" alt="Tandoori Bread">
+                    </div>
+                    <div class="menu-item-content">
+                        <div class="menu-item-title">
+                            <h3>Garlic Naan</h3>
+                            <span class="menu-item-price">$1.99</span>
+                        </div>
+                        <p class="menu-item-desc">Garlic naan is a soft, fluffy Indian flatbread infused with garlic,
+                            butter, and herbs.</p>
+                        <button class="menu-item-order">Order Now</button>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-img">
+                        <img src="M4.avif" alt="Dessert">
+                    </div>
+                    <div class="menu-item-content">
+                        <div class="menu-item-title">
+                            <h3>Gulab Jamun</h3>
+                            <span class="menu-item-price">$6.99</span>
+                        </div>
+                        <p class="menu-item-desc">Soft milk-solid balls soaked in rose-flavored sugar syrup.</p>
+                        <button class="menu-item-order">Order Now</button>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-img">
+                        <img src="M5.jpg" alt="Dessert">
+                    </div>
+                    <div class="menu-item-content">
+                        <div class="menu-item-title">
+                            <h3>Veg Biriyani</h3>
+                            <span class="menu-item-price">$3.99</span>
+                        </div>
+                        <p class="menu-item-desc">Indulge in the aromatic and flavorful Veg Biriyani </p>
+                        <button class="menu-item-order">Order Now</button>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-img">
+                        <img src="M6.jpg" alt="Dessert">
+                    </div>
+                    <div class="menu-item-content">
+                        <div class="menu-item-title">
+                            <h3>Tandoori Roti</h3>
+                            <span class="menu-item-price">$1.99</span>
+                        </div>
+                        <p class="menu-item-desc">Photo about Tandoori roti-is a leavened, oven-baked flatbread.</p>
+                        <button class="menu-item-order">Order Now</button>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-img">
+                        <img src="M7.jpg" alt="Dessert">
+                    </div>
+                    <div class="menu-item-content">
+                        <div class="menu-item-title">
+                            <h3>Rose Falooda</h3>
+                            <span class="menu-item-price">$3.99</span>
+                        </div>
+                        <p class="menu-item-desc">Refresh and rejuvenate with our simple and delicious Indian Rose
+                            Falooda recipe.</p>
+                        <button class="menu-item-order">Order Now</button>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-item-img">
+                        <img src="M8.jpg" alt="Dessert">
+                    </div>
+                    <div class="menu-item-content">
+                        <div class="menu-item-title">
+                            <h3>Chicken Chowmein</h3>
+                            <span class="menu-item-price">$2.99</span>
+                        </div>
+                        <p class="menu-item-desc">the noodles, perfectly cooked, blending with pieces of chicken and
+                            crunchy vibrant vegetables.</p>
+                        <button class="menu-item-order">Order Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Delivery Section -->
+    <section class="delivery" id="food delivery">
+        <div class="container">
+            <div class="delivery-container">
+                <div class="delivery-info">
+                    <h3>Food Delivery Service</h3>
+                    <p>Enjoy our delicious dishes from the comfort of your home. We deliver within a 5-mile radius with
+                        no minimum order requirement.</p>
+                    <p>All orders are carefully packaged to maintain temperature and quality during transit.</p>
+
+                    <div class="delivery-times">
+                        <h4>Delivery Hours</h4>
+                        <div class="time-slots">
+                            <div class="time-slot">
+                                <span class="days">Mon - Thu</span>
+                                <span class="hours">11am - 10pm</span>
+                            </div>
+                            <div class="time-slot">
+                                <span class="days">Fri - Sat</span>
+                                <span class="hours">11am - 11pm</span>
+                            </div>
+                            <div class="time-slot">
+                                <span class="days">Sunday</span>
+                                <span class="hours">12pm - 9pm</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="#" class="btn btn-primary" style="margin-top: 30px;">Order Delivery</a>
+                </div>
+
+                <div class="map-container">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.9663095343008!2d-74.00425872426996!3d40.74076987138918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259bf5c8eef01%3A0x41d071c5f5a9c3f0!2sMadison%20Square%20Garden!5e0!3m2!1sen!2sus!4v1693605634473!5m2!1sen!2sus"
+                        allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hours Section -->
+    <section class="hours" id="opening hours">
+        <div class="container">
+            <div class="hours-container">
+                <div class="hours-image">
+                    <img src="opening hours1.avif" alt="Restaurant Interior">
+                </div>
+
+                <div class="hours-content">
+                    <h3>Opening Hours</h3>
+
+                    <div class="opening-hours">
+                        <div class="hour-row">
+                            <span class="hour-day">Monday - Thursday</span>
+                            <span class="hour-time">11:00 AM - 10:00 PM</span>
+                        </div>
+                        <div class="hour-row">
+                            <span class="hour-day">Friday - Saturday</span>
+                            <span class="hour-time">11:00 AM - 11:00 PM</span>
+                        </div>
+                        <div class="hour-row">
+                            <span class="hour-day">Sunday</span>
+                            <span class="hour-time">12:00 PM - 09:00 PM</span>
+                        </div>
+                        <div class="hour-row">
+                            <span class="hour-day">Happy Hour</span>
+                            <span class="hour-time">4:00 PM - 6:00 PM</span>
+                        </div>
+                    </div>
+
+                    <p>We accept reservations for parties of 6 or more</p>
+                    <a href="#" class="btn btn-secondary">Make a Reservation</a>
+                </div>
+
+                <div class="hours-image">
+                    <img src="opening hours2.avif" alt="Restaurant Interior">
+                </div>
+            </div>
+
+            <div class="special-dish">
+                <div class="section-title">
+                    <h2>Special Dishes</h2>
+                    <p>Delicious, aromatic, flavorful, authentic, savory, spicy, rich, vibrant, mouthwatering,
+                        traditional, connected by their shared heritage and
+                        flavors.</p>
+                </div>
+
+                <div class="recipe-grid">
+                    <!-- Decorative garnishes -->
+                    <div class="garnish garnish-1">🍃</div>
+                    <div class="garnish garnish-2">🍅</div>
+                    <div class="garnish garnish-3">🍃</div>
+                    <div class="garnish garnish-4">🍅</div>
+
+                    <!-- Connecting lines -->
+                    <div class="connector">
+                        <div class="curve curve-1"></div>
+                        <div class="curve curve-2"></div>
+                    </div>
+
+                    <!-- Recipe 1 -->
+                    <div class="recipe-item">
+                        <div class="plate">
+                            <div class="food-content">
+                                <img src="special dish1.png" alt="indian veg thali set">
+                                <div class="calorie-badge">758 cal</div>
+                            </div>
+                        </div>
+                        <div class="recipe-info">
+                            <h3 class="recipe-title">Indian Veg Thali Set</h3>
+                            <p class="recipe-description">A traditional Indian thali serving rice, roti, dal, curries,
+                                raita, sweets, and vegetables, offering balanced flavors and nutrition.</p>
+                        </div>
+                    </div>
+
+                    <!-- Recipe 2 -->
+                    <div class="recipe-item">
+                        <div class="plate">
+                            <div class="food-content">
+                                <img src="special dish2.png" alt="indian veg thali set">
+                                <div class="calorie-badge">530 cal</div>
+                            </div>
+                        </div>
+                        <div class="recipe-info">
+                            <h3 class="recipe-title">Crudités Salad bowl</h3>
+                            <p class="recipe-description">Fresh, colorful, wholesome, nutritious, vibrant, crunchy, savory, hearty, refreshing, light, flavorful, natural, energizing, nourishing, delicious.</p>
+                        </div>
+                    </div>
+
+                    <!-- Recipe 3 -->
+                    <div class="recipe-item">
+                        <div class="plate">
+                            <div class="food-content">
+                                <img src="special dish3.png" alt="indian veg thali set">
+                                <div class="calorie-badge">870 cal</div>
+                            </div>
+                        </div>
+                        <div class="recipe-info">
+                            <h3 class="recipe-title">South Indian thali meal</h3>
+                            <p class="recipe-description">Traditional, flavorful, wholesome, aromatic, vibrant, satisfying, hearty, authentic, nourishing, diverse, spicy, balanced, cultural, delicious, festive.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Decorative Element -->
+        <div class="floating-herb">
+            <img src="curry leafs.png" alt="Herb" width="80">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about us">
+        <div class="container">
+            <div class="about-container">
+                <div class="about-content">
+                    <h3>Our Story</h3>
+                    <p>Founded in 2025, Mika Cafe Restaurant was born from a passion for authentic flavors and a
+                        desire to create a dining experience that celebrates both tradition and innovation.</p>
+                    <p>Our chefs bring decades of experience from around the world, crafting each dish with care and the
+                        finest ingredients sourced from local producers.</p>
+                    <p>We believe that great food has the power to bring people together and create lasting memories.
+                        That's why every detail of your dining experience matters to us.</p>
+                    <a href="#" class="btn btn-primary">Learn More About Us</a>
+                </div>
+
+                <div class="about-image">
+                    <div class="about-image-main">
+                        <img src="our story1.avif" alt="Chef Preparing Food">
+                    </div>
+                    <div class="about-image-decoration">
+                        <img src="12.jpg" alt="Dish Closeup">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <div class="section-title">
+                <h2>Food Gallery</h2>
+                <p>A visual journey through our most popular and beautiful dishes</p>
+            </div>
+
+            <div class="gallery-filters">
+                <button class="gallery-filter active">All</button>
+                <button class="gallery-filter">Chicken Dishes</button>
+                <button class="gallery-filter">Seafood Dishes</button>
+                <button class="gallery-filter">Vegetable Dishes</button>
+                <button class="gallery-filter">Desserts</button>
+            </div>
+
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="FG1.avif" alt="Food">
+                    <div class="gallery-item-overlay">
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="FG2.avif" alt="Food">
+                    <div class="gallery-item-overlay">
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="FG3.avif" alt="Food">
+                    <div class="gallery-item-overlay">
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="FG4.avif" alt="Food">
+                    <div class="gallery-item-overlay">
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="FG5.avif" alt="Food">
+                    <div class="gallery-item-overlay">
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="FG6.avif" alt="Food">
+                    <div class="gallery-item-overlay">
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="FG7.jpg" alt="Food">
+                    <div class="gallery-item-overlay">
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="FG8.jpg" alt="Food">
+                    <div class="gallery-item-overlay">
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact us">
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-col">
+                    <h4>About Us</h4>
+                    <p>Mika Cafe Restaurant offers a unique blend of traditional flavors and modern culinary
+                        techniques in a sophisticated atmosphere.</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <div class="footer-contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>800004 Patna Market, near PMCH, Patna (Bihar)</p>
+                    </div>
+                    <div class="footer-contact-item">
+                        <i class="fas fa-phone"></i>
+                        <p>+91 1234567890</p>
+                    </div>
+                    <div class="footer-contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>info@mikacafe.com</p>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#about us">About Us</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#opening hours">Opening Hours</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Newsletter</h4>
+                    <p>Subscribe to our newsletter for updates on special offers and events</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your Email Address">
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                    <p>By subscribing, you agree to our Privacy Policy</p>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <p>&copy; 2025 Mika Cafe Restaurant. All Rights Reserved. | Since 2025</p>
+            </div>
+            <div class="aditya-links">
+                Design & Developed by |
+                <a href="https://aditya82.netlify.app/">Aditya Yadav</a>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
