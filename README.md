@@ -4,6 +4,9 @@ Mika Café Restaurant Website is a premium dark-themed design with gold and red 
 
 > ✨Live Demo : https://mikacafe.netlify.app/
  
+# Screenshot :
+![Image](https://github.com/user-attachments/assets/bf2bb4ba-306b-469d-a7dc-7cf91e33adc0)
+
 
 > ✨Key Features :
 
